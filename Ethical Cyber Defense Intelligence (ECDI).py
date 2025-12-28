@@ -41,7 +41,7 @@ except Exception:
 
 # -------------------------
 # Embedded HF token (user requested embedded key)
-HF_TOKEN_EMBEDDED = "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"
+HF_TOKEN_EMBEDDED = "HF_TOKEN"
 
 # LLaMA model used (preserve your original)
 LLaMA_MODEL = "meta-llama/Llama-3.1-8B-Instruct"
@@ -700,5 +700,6 @@ st.download_button(
     file_name=(uploaded.name.split('.')[0] if uploaded else "recon") + "_all_results.txt",
     mime="text/plain"
 )
+
 
 st.caption("Defensive-only tool. Only analyze targets you own or are authorized to test.")
