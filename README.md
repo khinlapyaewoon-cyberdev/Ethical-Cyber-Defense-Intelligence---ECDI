@@ -27,7 +27,9 @@ ECDI is a **defensive-only cybersecurity tool** designed to analyze reconnaissan
 ```bash
 pip install streamlit pandas requests beautifulsoup4 huggingface_hub
 
-▶️ Usage
+---
+
+## ▶️ Usage
 streamlit run app.py
 
 Upload a reconnaissance .txt file.
@@ -43,7 +45,7 @@ Review detected indicators, CVEs, and recommendations.
 Download the professional results .txt.
 ---
 
-🔍 Detection Categories
+## 🔍 Detection Categories
 Vulnerability Indicators: CVE references, misconfigurations, exposed files.
 
 Sensitive Tokens: AWS/GCP keys, JWTs, default credentials.
@@ -59,7 +61,7 @@ Cloud Metadata & Storage: AWS, GCP, Azure metadata endpoints, S3 buckets, Google
 Source Lines: Evidence for each detected pattern included in report.
 ---
 
-🧩 How It Works?
+## 🧩 How It Works?
 
 Recon TXT File
       ↓
@@ -74,7 +76,7 @@ LLaMA Full Report & Next Steps
 Streamlit Dashboard & TXT Export
 ---
 
-👤 Author
+## 👤 Author
 Khin La Pyae Woon
 AI-Enhanced Ethical Hacking | Cybersecurity | Digital Forensic | Analyze | Developing
 
@@ -82,7 +84,8 @@ AI-Enhanced Ethical Hacking | Cybersecurity | Digital Forensic | Analyze | Devel
 🔗 LinkedIn: www.linkedin.com/in/khin-la-pyae-woon-ba59183a2
 💬 WhatsApp: https://wa.me/qr/MJYX74CQ5VA4D1
 
-📜 License & Ethics
+## 📜 License & Ethics
 This tool is released for educational, defensive, and research purposes only.
 
 Any offensive or unauthorized usage is strictly prohibited.
+
