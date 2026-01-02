@@ -27,7 +27,7 @@ ECDI is a **defensive-only cybersecurity tool** designed to analyze reconnaissan
 ```bash
 pip install streamlit pandas requests beautifulsoup4 huggingface_hub
 
----
+--------------------------------------------------
 
 ## ▶️ Usage
 streamlit run app.py
@@ -43,7 +43,8 @@ Select LLaMA report options (Full Report / Next Steps).
 Review detected indicators, CVEs, and recommendations.
 
 Download the professional results .txt.
----
+
+--------------------------------------------------
 
 ## 🔍 Detection Categories
 Vulnerability Indicators: CVE references, misconfigurations, exposed files.
@@ -59,7 +60,8 @@ Ports & Services: Open HTTP/HTTPS and other suspicious ports.
 Cloud Metadata & Storage: AWS, GCP, Azure metadata endpoints, S3 buckets, Google Cloud Storage.
 
 Source Lines: Evidence for each detected pattern included in report.
----
+
+--------------------------------------------------
 
 ## 🧩 How It Works?
 
@@ -74,7 +76,8 @@ Risk Analysis & Evidence Extraction
 LLaMA Full Report & Next Steps
       ↓
 Streamlit Dashboard & TXT Export
----
+
+--------------------------------------------------
 
 ## 👤 Author
 Khin La Pyae Woon
@@ -84,8 +87,11 @@ AI-Enhanced Ethical Hacking | Cybersecurity | Digital Forensic | Analyze | Devel
 🔗 LinkedIn: www.linkedin.com/in/khin-la-pyae-woon-ba59183a2
 💬 WhatsApp: https://wa.me/qr/MJYX74CQ5VA4D1
 
+--------------------------------------------------
+
 ## 📜 License & Ethics
 This tool is released for educational, defensive, and research purposes only.
 
 Any offensive or unauthorized usage is strictly prohibited.
+
 
